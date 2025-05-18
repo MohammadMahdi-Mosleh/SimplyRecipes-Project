@@ -1,4 +1,6 @@
 :root {
+    --font-h1: 6.4rem;
+    --font-h2: 2.5rem; 
     --head-font: 'Roboto', sans-serif;
     --body-font: 'Nunito', sans-serif;
     --bgcolor-btn: #645cff;
@@ -26,6 +28,12 @@ body {
 }
 
 /* GENERAL SETTING */
+
+h1, h2, h3, h4 {
+    font-family: var(--head-font);
+    font-weight: 400;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -80,3 +88,29 @@ main {
 .header-nav-left ul a {
     color: var(--grey-A);
 }
+
+/* HERO SECTION */
+.hero {
+    background-image: url('../Image/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border-radius: var(--radius);
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .textBox h1 {
+    font-size: var(--font-h1);
+    margin-bottom: 2rem;
+}
+.hero .textBox h2 {
+    font-size: var(--font-h2);
+}
+
