@@ -3,9 +3,10 @@
     --body-font: 'Nunito', sans-serif;
     --bgcolor-btn: #645cff;
     --bgcolor-btn-hover: #3c3799;
-    --radius: 0.25rem;
-    --grey-A: #334155;
-    --grey-B: #64748b;
+    --radius: 0.4rem;
+    --grey-A: #0f172a;
+    --grey-B: #334155;
+    --grey-C: #64748b;
 }
 
 * {
@@ -25,3 +26,57 @@ body {
 }
 
 /* GENERAL SETTING */
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: var(--bgcolor-btn);
+    border-radius: var(--radius);
+    text-align: center;
+    color: #fff;
+    padding: 0.7rem 1.8rem;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: var(--bgcolor-btn-hover);
+}
+
+/* MAIN SECTION */
+main {
+    width: 85vw;
+    margin: 3rem auto;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.header-nav-left ul {
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.header-nav-left ul img {
+    width: 200px;
+    margin-right: 2.5rem;
+}
+
+.header-nav-left ul a {
+    color: var(--grey-A);
+}
