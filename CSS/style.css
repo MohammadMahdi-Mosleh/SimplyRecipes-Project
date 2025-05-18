@@ -1,0 +1,27 @@
+:root {
+    --head-font: 'Roboto', sans-serif;
+    --body-font: 'Nunito', sans-serif;
+    --bgcolor-btn: #645cff;
+    --bgcolor-btn-hover: #3c3799;
+    --radius: 0.25rem;
+    --grey-A: #334155;
+    --grey-B: #64748b;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    font-family: var(--body-font);
+    color: #000;
+}
+
+/* GENERAL SETTING */
