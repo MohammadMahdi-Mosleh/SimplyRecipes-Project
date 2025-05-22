@@ -1,36 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- HEADER -->
+      <header class="header capitalize">
+        <nav class="header-nav-left">
+          <ul>
+            <li><img src="Image/logo.svg" alt="logo" /></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">tags</a></li>
+            <li><a href="#">recipes</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn">contact</a>
+      </header>
 
-    </head>
-    <body>
-        <main>
-        <!-- HEADER -->
-        <header class="header capitalize">
-            <nav class="header-nav-left">
-                <ul>
-                    <li><img src="Image/logo.svg" alt="logo"></li>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">tags</a></li>
-                    <li><a href="#">recipes</a></li>
-                </ul>
-            </nav>
-            <a href="#" class="btn">contact</a>
-        </header>
+      <!-- HERO SECTION -->
+      <section class="hero capitalize">
+        <div class="textBox">
+          <h1>simply recipes</h1>
+          <h2>no fluff, just recipes</h2>
+        </div>
+      </section>
 
-        <!-- HERO SECTION -->
-         <section class="hero capitalize">
-            <div class="textBox">
-                <h1>simply recipes</h1>
-                <h2>no fluff, just recipes</h2>
-            </div>
-         </section>
+      <!-- RECIPES SECTION -->
+      <section class="recipes capitalize">
 
-        </main>
-    </body>
+
+        <!--left-->
+        <div> 
+          <h2>recipes</h2> 
+          <ul>
+            <li><a href="#">beef</a></li>
+            <li><a href="#">breakfast</a></li>
+            <li><a href="#">carrots</a></li>
+            <li><a href="#">food</a></li>
+          </ul>
+        </div>
+        
+         <!--right-->
+          <div class="recipe-cards-container">
+            <div class="recipe-card"> <!--recipe 1-->
+            <a href="#">
+              <img src="Image/recipe-1.jpeg" alt="carne asada" />
+              <div class="recipe-card-textbox">
+                <h3>carne asada</h3>
+                <span>Prep : 15min | Cook : 5min</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="recipe-card"> <!--recipe 2-->
+            <a href="#">
+              <img src="Image/recipe-2.jpeg" alt="carne asada" />
+              <div class="recipe-card-textbox">
+                <h3>greek ribs</h3>
+                <span>Prep : 15min | Cook : 5min</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="recipe-card"> <!--recipe 3-->
+            <a href="#">
+              <img src="Image/recipe-3.jpeg" alt="carne asada" />
+              <div class="recipe-card-textbox">
+                <h3>vegtable soup</h3>
+                <span>Prep : 15min | Cook : 5min</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="recipe-card"> <!--recipe 4-->
+            <a href="#">
+              <img src="Image/recipe-4.jpeg" alt="carne asada" />
+              <div class="recipe-card-textbox">
+                <h3>banana pancakes</h3>
+                <span>Prep : 15min | Cook : 5min</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+  </body>
 </html>
-
