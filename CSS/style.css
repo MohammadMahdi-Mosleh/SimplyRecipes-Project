@@ -127,8 +127,10 @@ main {
     display: flex;
 }
 
+.recipe-cards-container a { background-color: red;}
 .recipe-card img {
-    width: 20rem;
-    height: 10rem;
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
 }
 
